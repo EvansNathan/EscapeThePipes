@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.bc filter=lfs diff=lfs merge=lfs -text
+Repos/Escape filter=lfs diff=lfs merge=lfs -text
+The filter=lfs diff=lfs merge=lfs -text
+Pipes/EscapeThePipes/Library/PackageCache/com.unity.burst@1.6.4/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+D:/Github filter=lfs diff=lfs merge=lfs -text
+D:/Github[[:space:]]Repos/Escape[[:space:]]The[[:space:]]Pipes/EscapeThePipes/Library/PackageCache/com.unity.burst@1.6.4/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.6.4/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
